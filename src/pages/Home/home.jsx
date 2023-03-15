@@ -4,7 +4,7 @@ import { ToggleThemeButton } from "./components/ToggleThemeButton";
 
 export function Home() {
   return (
-    <div className="flex flex-col justify-center items-center bg-gray-200 dark:bg-zinc-700 ">
+    <div className="flex flex-col justify-center items-center bg-gray-200 dark:bg-zinc-700 h-screen gap-3">
       <div>
         <ToggleThemeButton />
       </div>
