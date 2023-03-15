@@ -39,7 +39,7 @@ export function ToggleThemeButton() {
         <div className="shadow-card flex h-[40px] w-[40px] items-center justify-center rounded-md ">
           <div
             className={`${
-              isDarkMode ? "text-emerald-400" : "text-black"
+              isDarkMode ? "text-violet-400" : "text-black"
             } flex h-9 w-9 items-center justify-center rounded`}
             onClick={toggleThemeMode}
           >
@@ -50,7 +50,7 @@ export function ToggleThemeButton() {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-6 h-6 text-emerald-600 hover:text-emerald-500 transition"
+                className="w-6 h-6 text-violet-600 hover:text-violet-500 transition"
               >
                 <path
                   strokeLinecap="round"
@@ -65,7 +65,7 @@ export function ToggleThemeButton() {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-5 h-5  text-emerald-600 hover:text-emerald-500 transition"
+                className="w-5 h-5  text-violet-600 hover:text-violet-500 transition"
               >
                 <path
                   strokeLinecap="round"
